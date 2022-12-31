@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	int digit;
+	
+	cout << "Enter the digit mothefucker!" << endl;
+	cin >> digit;
+	if (digit<1000 || digit >9999)
+	{
+		cout << "Enter another digit!" << endl;
+	}
+	else 
+	{
+    int a, b, c, d;
+     a = digit/1000;
+     b = (digit / 100) % 10;
+     c = (digit % 100)/10 ;
+     d = digit % 10;
+	 cout << b << a<< d << c;
+
+	 }
